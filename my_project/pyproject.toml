@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-project"
+version = "0.1.0"
+description = ""
+authors = ["rohit kumar <rohitk.techexactly@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyautogui = "^0.9.54"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
